@@ -1,7 +1,82 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 /* 
   font-family: 'Roboto', sans-serif; 
 */
+
 * {
-  
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.site-header {
+  width: 100%;
+}
+
+.header-top-section {
+  align-items: center;
+  background-color: bisque;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.header-left {
+  align-items: center;
+  display: flex;
+  height: min-content;
+}
+
+.navigation {
+  display: inline;
+}
+
+.header-right {
+  height: min-content;
+}
+
+#header-logo {
+  height: 32px;
+  margin-right: 16px;
+}
+
+.navigation ul {
+  list-style-type: none;
+}
+
+.navigation ul li {
+  display: inline;
+}
+
+.header-link-left {
+  color: black;
+  margin-left: 16px;
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+.header-link-left:nth-child(1) {
+  margin-left: 0px;
+}
+
+/* .header-link-left:nth-last-child(1) { 
+   margin-right: 0px;
+ } */
+
+.header-link-right {
+  color: black;
+  margin-left: 16px;
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+.header-link-right:nth-child(1) {
+  margin-left: 0px;
+}
+
+.header-link-right:nth-last-child(1) {
+  margin-right: 0px;
 }
