@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 /* 
-  font-family: 'Roboto', sans-serif; 
+  font-family: 'Jost', sans-serif;
 */
 
 * {
@@ -15,7 +15,8 @@
 
 .header-top-section {
   align-items: center;
-  background-color: bisque;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
   display: flex;
   justify-content: space-between;
   padding-top: 16px;
@@ -53,6 +54,7 @@
 
 .header-link-left {
   color: black;
+  font: 500 20px 'Jost', sans-serif;
   margin-left: 16px;
   margin-right: 16px;
   text-decoration: none;
@@ -62,9 +64,9 @@
   margin-left: 0px;
 }
 
-/* .header-link-left:nth-last-child(1) { 
+.header-link-left:nth-last-child(1) { 
    margin-right: 0px;
- } */
+ }
 
 .header-link-right {
   color: black;
@@ -74,9 +76,59 @@
 }
 
 .header-link-right:nth-child(1) {
+  color: blue;
+  font: 500 20px 'Jost', sans-serif;
   margin-left: 0px;
 }
 
 .header-link-right:nth-last-child(1) {
+  font: 500 16px 'Jost', sans-serif;
   margin-right: 0px;
+}
+.header-bootom-section {
+  background: #fff;
+  padding: 20px 40px;
+}
+.header-bootom-section a {
+  color: #000;
+  font: 500 16px 'Jost', sans-serif;
+  margin: 0 12px;
+  text-decoration: none;
+}
+.header-bootom-section a:first-child{
+  color: rgb(253, 141, 36);
+  margin-left: 0;
+}
+.header-bootom-section a:last-child{
+  margin-right: 0;
+}
+.about-image {
+  background: url(https://images.unsplash.com/photo-1589903308904-1010c2294adc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80) no-repeat;
+  background-size: cover;
+  margin: auto;
+  height: 500px;
+  width: 90%;
+}
+.about-image h2 {
+  color: rgb(255, 58, 23);
+  font: 800 88px 'Jost', sans-serif;
+  padding: 160px 20px 20px 20px;
+  text-align: center;
+}
+/* about text */
+.about-text {
+  padding: 40px;
+  margin: 20px auto;
+  width: 60%;
+}
+.about-text h1 {
+  color: #000;
+  font: 500 26px/40px 'Jost', sans-serif;
+}
+.about-text h1 a {
+  text-decoration: none;
+}
+.about-text p {
+  font: 16px/26px 'Jost', sans-serif;
+  margin: 12px 0 0;
 }
